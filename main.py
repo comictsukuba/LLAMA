@@ -25,7 +25,7 @@ intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
 
-GUILD_ID = os.getenv('GUILD_ID')
+GUILD_ID = int(os.getenv('GUILD_ID'))
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
